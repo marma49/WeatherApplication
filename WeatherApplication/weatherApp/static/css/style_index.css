@@ -1,0 +1,114 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(26, 4, 41);
+    margin: 0px;
+}
+
+
+#leftSideBlock {
+    grid-area: leftSideBlock
+}
+
+#rightSideBlock {
+    grid-area: rightSideBlock
+}
+
+#upperBlock {
+    grid-area: upperBlock;
+    border-style: double;
+    background: rgb(214, 209, 223);
+}
+
+#centerBlock{
+    grid-area: centerBlock;
+    margin: 50px 15px 50px 15px;
+    padding: 20px 25px 25px 20px;
+    border-radius: 30px;
+    background: rgb(232, 227, 240);
+    border-style: double;
+    font-size: 20px;
+}
+
+#lowerBlock {
+    grid-area: lowerBlock;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    border-style: double;
+    background: rgb(214, 209, 223);
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 150px;
+}
+
+p {
+    margin: 15px 0px 15px 0px;
+}
+
+input {
+    height: 60px;
+}
+
+body {
+    background: rgb(255, 255, 255);
+}
+
+#submitButton {
+    width: 150px;
+    height: 60px;
+    margin: 20px 0px 30px 0px;
+}
+
+h1 {
+    font-weight: bold;
+    margin: 10px 0px 10px 0px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+#structure {
+    min-width: 1200px;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "upperBlock upperBlock upperBlock"
+    "leftSideBlock centerBlock rightSideBlock"
+    "lowerBlock lowerBlock lowerBlock"
+}
+
+label {
+    display: block;
+}
+
+.iconImage
+{
+    width: 40px;
+}
+
+.weatherImage {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.cityImage 
+{
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    border-style: solid;
+    margin-top: 20px;
+}
